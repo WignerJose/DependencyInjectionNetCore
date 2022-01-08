@@ -2,6 +2,6 @@
 {
     public interface IWeatherForecast
     {
-        WeatherForecast? GetWeatherForecast(int cytiCode);
+        WeatherForecast? GetWeatherForecast(int cityCode);
     }
 }

@@ -8,9 +8,9 @@
                                                                 new WeatherForecast() { CityCode = 400,Date = DateTime.Now, CityName = "Potosi", TemperatureC = 16,},
                                                                 new WeatherForecast() { CityCode = 500,Date = DateTime.Now, CityName = "La paz", TemperatureC = 11,}, };
 
-        public  WeatherForecast? GetWeatherForecast(int cytiCode)
+        public  WeatherForecast? GetWeatherForecast(int cityCode)
         {
-            return Summaries.FirstOrDefault(city => city.CityCode.Equals(cytiCode));
+            return Summaries.FirstOrDefault(city => city.CityCode.Equals(cityCode));
         }
     }
 
