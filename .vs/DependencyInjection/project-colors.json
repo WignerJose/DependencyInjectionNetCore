@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ef2ea48b-ec5d-41d2-90a8-446dc8343b48": {
+      "ProjectGuid": "ef2ea48b-ec5d-41d2-90a8-446dc8343b48",
+      "DisplayName": "DependencyInjection",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
